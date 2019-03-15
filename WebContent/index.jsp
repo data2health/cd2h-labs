@@ -24,12 +24,16 @@
             <hr>
             <p>Welcome to CD2H Labs! Current prototypes from our teams include the 
             following.</p>
-            <h3>Resource Discovery & Development</h3>
+            <h3>Overall CD2H Project Activity</h3>
             <ol class="bulletedList">
              <li><a href="http://labs.cd2h.org/analytics/cd2h/dashboard.jsp">CD2H Project Dashboard</a>
              <li><a href="http://labs.cd2h.org/analytics/proposals/display.jsp">Visualizing</a> CD2H phase 2 projects
              <li><a href="http://labs.cd2h.org/analytics/github/repos.jsp?mode=org">Project analytics</a>, details regarding status of CD2H projects
-             <li><a href="http://labs.cd2h.org/search/facetSearch.jsp">Faceted search</a> against multiple types and sources
+            </ol>
+
+            <h3>Resource Discovery & Development</h3>
+            <ol class="bulletedList">
+             <li><a href="http://labs.cd2h.org/search/facetSearch.jsp">Search</a> against multiple types and sources across the CTSA consortium (and beyond!)
              <li><a href="http://labs.cd2h.org/gitforager/">gitForager</a>, search against a curated list of CTSA-relevant GitHub content
              <li><a href="http://labs.cd2h.org/viva/">Viva</a>, an application blending VIVO-compliant data with multiple external content
             </ol>
