@@ -50,6 +50,7 @@
                             <h5 class="card-title">Resource Discovery & Development</h5>
                             <ul class="list-group">
                                     <li><a href="http://labs.cd2h.org/search/facetSearch.jsp">Search</a> against multiple types and sources across the CTSA consortium (and beyond!)</li>
+                                    <li><a href="http://labs.cd2h.org/analytics/incite/browse.jsp">Explore</a> the CTSA Consortium web</li>
                                     <li><a href="http://labs.cd2h.org/gitforager/">gitForager</a>, search against a curated list of CTSA-relevant GitHub content</li>
                                     <li><a href="http://labs.cd2h.org/viva/">Viva</a>, an application blending VIVO-compliant data with multiple external content</li>
                             </ul>
