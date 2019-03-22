@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <jsp:include page="head.jsp" flush="true">
-    <jsp:param name="title" value="CD2H Analytics" />
+    <jsp:param name="title" value="CD2H Labs" />
 </jsp:include>
 <style type="text/css" media="all">
 @import "resources/layout.css";
@@ -29,7 +29,8 @@
             <h1>CD2H Labs</h1>
             <hr>
             <p>Welcome to CD2H Labs! This is where the National Center for Data to Health (CD2H) shows off what its various teams are working on.
-            Our purpose is to provide you early access to experiment with and comment on our current projects.</p>
+            Our purpose is to provide you early access to experiment with and comment on our current projects. Most of these projects reside
+            in our <a href="https://github.com/data2health">data2health GitHub organization</a>.</p>
             <h4 style="text-align:center; font-weight:400;"><i style="color:#6ba097;"class="fas fa-server"></i>   Current prototypes from our teams include:</h4><br>
             <div class="row">
                 <div class="col-sm-6">
