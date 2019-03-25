@@ -59,6 +59,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Reusable Data best practice portal (rdp-portal)</h5>
+                            <ul class="list-group">
+                                    <li><a href="http://discovery.biothings.io">Data Discovery Engine</a> - make your data more findable!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <jsp:include page="footer.jsp" flush="true" />
