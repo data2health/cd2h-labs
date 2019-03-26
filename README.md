@@ -1,7 +1,5 @@
 # cd2h-labs
-Demonstration web site for the Center for Data to Health and its collaborators.
-
-The live site is at [labs.cd2h.org](http://labs.cd2h.org).
+Demonstration web sit for the Center for Data to Health and its collaborators
 
 Please post working URLs for wrapping/display in this ticket: https://github.com/data2health/cd2h-labs/issues/3
 There is an expectation that any CD2H funded software development projects that have advanced to having working code should be available for testing in CD2H labs. We would like to have all of these made available before the iDTF meeting. 
