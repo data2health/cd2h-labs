@@ -68,6 +68,9 @@
 								<li><a href="http://labs.cd2h.org/acknowledgments">acknowledgments</a>: An application supporting search and browsing of the acknowledgments sections of PubMed Central papers</li>
 								<li><a href="http://labs.cd2h.org/gitforager/">gitForager</a>: Search against a curated list of CTSA-relevant GitHub content</li>
 								<li><a href="http://labs.cd2h.org/viva/">Viva</a>: An application blending VIVO-compliant data with multiple external content</li>
+                                <li><a href="https://cd2h.cielo.wustl.edu">CIELO</a>, a collaborative tool that enables health researchers, data scientists,
+                                policy analysts, and citizen scientists to share software and data and connect with peers, colleagues and specialists to improve
+                                the timeliness, efficiency and transparency of data analysis</li>
 							</ul>
 						</div>
 					</div>
