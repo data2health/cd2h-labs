@@ -11,7 +11,7 @@
 </jsp:include>
 
 <style type="text/css" media="all">
-@import "resources/layout2.css";
+@import "resources/layout.css";
 
 .index-icon {
 	text-align: center;
@@ -122,7 +122,7 @@
 </style>
 
 <body class="home page-template-default page page-id-6 CD2H">
-	<jsp:include page="header2.jsp" flush="true" />
+	<jsp:include page="header.jsp" flush="true" />
 
 	<div class="container pl-0 pr-0">
 		<br/>
@@ -281,7 +281,7 @@
 			</div>
 		</div>
 
-		<jsp:include page="footer2.jsp" flush="true" />
+		<jsp:include page="footer.jsp" flush="true" />
 
 		<script>
 			$('.collapse').on('show.bs.collapse',function(e) {

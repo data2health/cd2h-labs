@@ -11,10 +11,8 @@
 .settings/org.eclipse.wst.validation.prefs -text
 WebContent/META-INF/MANIFEST.MF -text
 WebContent/footer.jsp -text
-WebContent/footer2.jsp -text
 WebContent/head.jsp -text
 WebContent/header.jsp -text
-WebContent/header2.jsp -text
 WebContent/image_map.jsp -text
 WebContent/images/bullet-l1.gif -text svneol=unset#image/gif
 WebContent/images/cd2h_honeycomb.png -text svneol=unset#image/png
@@ -39,7 +37,6 @@ WebContent/resources/css -text
 WebContent/resources/d3.v3.min.js -text
 WebContent/resources/jdbc_environment.jsp -text
 WebContent/resources/layout.css -text
-WebContent/resources/layout2.css -text
 WebContent/resources/slick.min.css -text
 WebContent/resources/style.css -text
 WebContent/resources/styles.css -text
