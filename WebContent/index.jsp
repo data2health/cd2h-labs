@@ -51,7 +51,7 @@
 					</div>
 					<div class="card mt-4">
 						<div class="card-body">
-							<h5 class="card-title">Reusable Data Best Practice Portal</h5>
+							<h5 class="card-title">Next Generation Data Sharing & Analytics Network</h5>
 							<ul class="list-group">
 								<li><a href="http://discovery.biothings.io">Data Discovery Engine</a>: Explore actionable best practices to increase the discoverability and reusability of your data!</li>
 							</ul>
