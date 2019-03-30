@@ -34,7 +34,7 @@
 				our <a href="https://github.com/data2health">data2health GitHub organization</a>.
 			</p>
 			<h4 style="text-align: center; font-weight: 400;">
-				<i style="color: #6ba097;" class="fas fa-server"></i> Current Prototypes from Our Teams Include:
+				<i style="color: #6ba097;" class="fas fa-server"></i> Current Prototypes from Our Teams and Our Collaborators Include:
 			</h4>
 			<br>
 			<div class="row">
@@ -54,6 +54,7 @@
 							<h5 class="card-title">Next Generation Data Sharing & Analytics Network</h5>
 							<ul class="list-group">
 								<li><a href="http://discovery.biothings.io">Data Discovery Engine</a>: Explore actionable best practices to increase the discoverability and reusability of your data!</li>
+                                <li><a href="https://octri.ohsu.edu/hpo_on_fhir/">LOINC2HPO</a> - a semantic phenotyping tool (this demo runs on FHIR!)</li>
 							</ul>
 						</div>
 					</div>
@@ -71,6 +72,8 @@
                                 <li><a href="https://cd2h.cielo.wustl.edu">CIELO</a>, a collaborative tool that enables health researchers, data scientists,
                                 policy analysts, and citizen scientists to share software and data and connect with peers, colleagues and specialists to improve
                                 the timeliness, efficiency and transparency of data analysis</li>
+                                <li><a href="http://cdek.wustl.edu">Clinical Drug Experience Knowledgebase</a>: (WashU) - a platform intended to explore every active pharmaceutical ingredient (API) with evidence
+                                of clinical testing.</li>
 							</ul>
 						</div>
 					</div>

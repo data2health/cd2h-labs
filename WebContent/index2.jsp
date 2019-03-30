@@ -144,7 +144,7 @@
 					<div class="card-header">
 						<div class="accordion-head-spacing"></div>
 						<div class="accordion-head-text">
-							<h5 style="font-weight: 300;"> <i class="fas fa-server"></i> Current Prototypes from our Teams: </h5>
+							<h5 style="font-weight: 300;"> <i class="fas fa-server"></i> Current Prototypes from our Teams and Our Collaborators: </h5>
 						</div>
 						<div class="accordion-head-chevron">
 							<a class="card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> 
@@ -196,12 +196,18 @@
 									<div class="card-body">
 										<h5 class="card-title">Next Generation Data Sharing & Analytics Network</h5>
 										<div class="list-group">
-											<a href="http://labs.cd2h.org/search/facetSearch.jsp" class="list-group-item list-group-item-action next_gen filter">
+											<a href="http://discovery.biothings.io" class="list-group-item list-group-item-action next_gen filter">
 												<div class="d-flex w-100 justify-content-between">
 													<h6 class="mb-1 list-title">Data Discovery Engine</h6>
 												</div>
 												<p>Explore actionable best-practices to increase the discoverability and reusability of your data!</p>
 											</a>
+                                            <a href="https://octri.ohsu.edu/hpo_on_fhir/" class="list-group-item list-group-item-action next_gen filter">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <h6 class="mb-1 list-title">LOINC2HPO</h6>
+                                                </div>
+                                                <p>A semantic phenotyping tool (this demo runs on FHIR!)</p>
+                                            </a>
 										</div>
 									</div>
 								</div>
@@ -247,6 +253,13 @@
 												</div>
 												<p>An environment built for multi-disciplinary collaboration in health analytics across distributed research activities.</p>
 											</a>
+                                            <a href="http://cdek.wustl.edu" class="list-group-item list-group-item-action resource filter" >
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <h6 class="mb-1 list-title">Clinical Drug Experience Knowledgebase</h6>
+                                                </div>
+                                                <p>(WashU) - A platform intended to explore every active pharmaceutical ingredient (API) with evidence
+                                                of clinical testing.</p>
+                                            </a>
 										</div>
 									</div>
 								</div>
