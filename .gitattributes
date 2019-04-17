@@ -31,7 +31,6 @@ WebContent/images/tile_background4.png -text svneol=unset#image/png
 WebContent/index.jsp -text
 WebContent/index2.jsp -text
 WebContent/local_nav.jsp -text
-WebContent/postgraphile/query_list.jsp -text
 WebContent/resources/cd2h -text
 WebContent/resources/css -text
 WebContent/resources/d3.v3.min.js -text
