@@ -53,16 +53,23 @@
 						<div class="card-body">
 							<h5 class="card-title">Next Generation Data Sharing & Analytics Network</h5>
 							<ul class="list-group">
-								<li><a href="http://discovery.biothings.io">Data Discovery Engine</a>: Explore actionable best practices to increase the discoverability and reusability of your data!</li>
                                 <li><a href="https://octri.ohsu.edu/hpo_on_fhir/">LOINC2HPO</a> - a semantic phenotyping tool (this demo runs on FHIR!)</li>
 							</ul>
 						</div>
 					</div>
-				</div>
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Informatics Maturity & Best Practices</h5>
+                            <ul class="list-group">
+                                <li><a href="http://discovery.biothings.io">Data Discovery Engine</a>: Explore actionable best practices to increase the discoverability and reusability of your data!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 				<div class="col-sm-6">
 					<div class="card">
 						<div class="card-body">
-							<h5 class="card-title">Resource Discovery & Development</h5>
+							<h5 class="card-title">Resource Discovery</h5>
 							<ul class="list-group">
 								<li><a href="http://labs.cd2h.org/search/facetSearch.jsp">CD2H Search</a>: Search against multiple types and sources across the CTSA consortium (and beyond!)</li>
 								<li><a href="http://labs.cd2h.org/analytics/incite/browse.jsp">CTSA Website Search</a>: Explore the CTSA Consortium web</li>
