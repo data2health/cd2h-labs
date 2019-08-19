@@ -14,12 +14,20 @@ WebContent/footer.jsp -text
 WebContent/head.jsp -text
 WebContent/header.jsp -text
 WebContent/image_map.jsp -text
+WebContent/image_map2.jsp -text
 WebContent/images/bullet-l1.gif -text svneol=unset#image/gif
 WebContent/images/cd2h_honeycomb.png -text svneol=unset#image/png
 WebContent/images/cd2h_invent.png -text svneol=unset#image/png
 WebContent/images/cd2hmap.png -text
 WebContent/images/contact.png -text
 WebContent/images/ctsa-g-logo.jpg -text svneol=unset#image/jpeg
+WebContent/images/edu_logos/cornell.png -text
+WebContent/images/edu_logos/iowa.png -text
+WebContent/images/edu_logos/ohsu.png -text
+WebContent/images/edu_logos/scripps.png -text
+WebContent/images/edu_logos/uiowa_dome.png -text
+WebContent/images/edu_logos/washu.png -text
+WebContent/images/edu_logos/washu_shield.png -text
 WebContent/images/header.jpg -text
 WebContent/images/idtf_map.png -text svneol=unset#image/png
 WebContent/images/labs-logo.png -text svneol=unset#image/png
@@ -40,6 +48,7 @@ WebContent/resources/anime.min.js -text
 WebContent/resources/cd2h -text
 WebContent/resources/css -text
 WebContent/resources/d3.v3.min.js -text
+WebContent/resources/index.css -text
 WebContent/resources/jdbc_environment.jsp -text
 WebContent/resources/layout.css -text
 WebContent/resources/slick.min.css -text
