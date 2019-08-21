@@ -86,7 +86,7 @@ input[type="radio"][disabled] {
 	}
 }
 </style>
-<script src="../cd2h-labs/resources/anime.min.js"></script>
+<script src="resources/anime.min.js"></script>
 
 <body class="home page-template-default page page-id-6 CD2H">
 	<jsp:include page="header.jsp" flush="true" />
@@ -94,7 +94,7 @@ input[type="radio"][disabled] {
 	<div class="container pl-0 pr-0 pt-0">
 		<div class="container-fluid">
 		
-		<img src="../cd2h-labs/images/header.jpg" class="img-fluid" alt="Responsive image">
+		<img src="images/header.jpg" class="img-fluid" alt="Responsive image">
 		
 			<h2 class="ml5" style="width: 100%;">
   			<span class="text-wrapper">
@@ -239,7 +239,7 @@ input[type="radio"][disabled] {
 			<div class="row memo-case">
 				<div class="card memo">
 					<div class="card-horizontal">
-		  				<img id='testimg' class="card-img-top" src="../cd2h-labs/images/contact.png" alt="Construction" style="max-width:100px; max-height:100px;">
+		  				<img id='testimg' class="card-img-top" src="images/contact.png" alt="Construction" style="max-width:100px; max-height:100px;">
 		  				<div class="card-body">
 		    				<p class="card-text" style="font-size: 10pt;"><b>Contact Us!</b> <br>Please leave any feedback on our <a href="https://github.com/data2health/cd2h-labs">Labs GitHub <i class="fab fa-github"></i> Page.</a> We welcome any comments or recommendations!</p>
 		  				</div>
@@ -247,7 +247,7 @@ input[type="radio"][disabled] {
 				</div>
 				<div class="card memo">
 					<div class="card-horizontal">
-		  				<img class="card-img-top" src="../cd2h-labs/images/working.png" alt="Construction" style="max-width:100px; max-height:100px;">
+		  				<img class="card-img-top" src="images/working.png" alt="Construction" style="max-width:100px; max-height:100px;">
 		  				<div class="card-body">
 		    				<p class="card-text" style="font-size: 10pt;"><b>Coming Soon!</b> <br>We are currently implementing features to allow the community to directly comment on each individual tool. </p>
 		  				</div>
