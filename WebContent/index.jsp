@@ -97,8 +97,8 @@ input[type="radio"][disabled] {
 		<img src="images/header.jpg" class="img-fluid" alt="Responsive image">
 		
 			<h2 class="ml5" style="width: 100%;">
-  			<span class="text-wrapper">
-   				<span class="line line1"></span>
+  			<span class="text-wrapper" style="white-space: nowrap;">
+   				<span class="line line1" style="white-space: nowrap;"></span>
     				<span class="letters letters-left">CD2H</span>
     				<span class="letters letters-right">Labs</span>
     				<span class="icon letters-one">Innovate.</span>
@@ -397,7 +397,7 @@ input[type="radio"][disabled] {
 				translateY : function(e, i, l) {
 					var offset = 0;
 					if (i==0){
-						offset = -20;
+						offset = -19;
 					}else{
 						offset = 30;
 					};
@@ -433,7 +433,7 @@ input[type="radio"][disabled] {
 				targets : '.ml5 .letters-two',
 				opacity : [ 0, 1 ],
 				easing : "easeInOutQuad",
-				translateX : [ "-4em", "-4em" ],
+				translateX : [ "-77px", "-77px" ],
 				duration : 600,
 				offset : '-=600',
 			}).add({
@@ -446,7 +446,7 @@ input[type="radio"][disabled] {
 				targets : '.ml5 .letters-three',
 				opacity : [ 0, 1 ],
 				easing : "easeInOutQuad",
-				translateX : [ "-7.3em", "-7.3em" ],
+				translateX : [ "-138px", "-138px" ],
 				duration : 600,
 				offset : '-=600'
 			}).add({
