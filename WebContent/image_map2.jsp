@@ -21,7 +21,7 @@
     <area target="" alt="governance-pathways" title="governance-pathways" href="https://github.com/data2health/governance-pathways" coords="${773*scale},${1038*scale},${1114*scale},${1150*scale}" shape="rect">
     <area target="" alt="rdp-portal" title="rdp-portal" href="https://github.com/data2health/rdp-portal" coords="${773*scale},${1170*scale},${1116*scale},${1247*scale}" shape="rect">
     <area target="" alt="data-harmonization" title="data-harmonization" href="https://github.com/data2health/data-harmonization" coords="${1257*scale},${503*scale},${1689*scale},${619*scale}" shape="rect">
-    <area target="" alt="HOT-FHIR" title="HOT-FHIR" href="https://github.com/HOT-FHIR" coords="${1297*scale},${674*scale},${1659*scale},${784*scale}" shape="rect">
+    <area target="" alt="HOT-FHIR" title="HOT-FHIR" href="https://github.com/data2health/hot-fhir-projects" coords="${1297*scale},${674*scale},${1659*scale},${784*scale}" shape="rect">
     <area target="" alt="ehr2HPO.prj" title="ehr2HPO.prj" href="https://github.com/data2health/ehr2HPO.prj" coords="${1255*scale},${845*scale},${1703*scale},${971*scale}" shape="rect">
     <area target="" alt="cloud-sharing" title="cloud-sharing" href="https://github.com/data2health/cloud-sharing" coords="${1766*scale},${507*scale},${2228*scale},${625*scale}" shape="rect">
     <area target="" alt="leaf-edw" title="leaf-edw" href="https://github.com/data2health/leaf-edw" coords="${1790*scale},${664*scale},${2224*scale},${804*scale}" shape="rect">
