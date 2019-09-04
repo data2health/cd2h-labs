@@ -58,6 +58,13 @@ input[type="radio"][disabled] {
 	font-family: 'Libre Caslon Display', serif;
 }
 
+#tagline-one, #tagline-two, #tagline-three {
+	position:absolute;  
+	z-index:1; 
+	padding-left:10px;  
+	bottom: 11px;
+}
+
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
@@ -96,14 +103,14 @@ input[type="radio"][disabled] {
 		
 		<img src="images/header.jpg" class="img-fluid" alt="Responsive image">
 		
-			<h2 class="ml5" style="width: 100%;">
+			<h2 class="ml5">
   			<span class="text-wrapper" style="white-space: nowrap;">
    				<span class="line line1" style="white-space: nowrap;"></span>
     				<span class="letters letters-left">CD2H</span>
     				<span class="letters letters-right">Labs</span>
-    				<span class="icon letters-one">Innovate.</span>
-    				<span class="icon letters-two">Create.</span>
-    				<span class="icon letters-three">Distribute.</span>
+    				<span id="tagline-one" class="icon letters-one">Innovate.</span>
+    				<span id="tagline-two" class="icon letters-two">Create.</span>
+    				<span id="tagline-three" class="icon letters-three">Distribute.</span>
     			<span class="line line2"></span>
   			</span>
 			</h2>
@@ -122,7 +129,7 @@ input[type="radio"][disabled] {
 					<div class="card-header">
 						<div class="accordion-head-spacing"></div>
 						<div class="accordion-head-text">
-							<h5 style="font-weight: 300;"> <i class="fas fa-server"></i> Current Prototypes from our Teams and Our Collaborators: </h5>
+							<h5 style="font-weight: 300;"> <i class="fas fa-server"></i> Current Prototypes from our Teams and our Collaborators: </h5>
 						</div>
 						<div class="accordion-head-chevron">
 							<a class="card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> 
@@ -170,7 +177,7 @@ input[type="radio"][disabled] {
 									order by 1;
 	    						</sql:query>
 							    <c:forEach items="${headings.rows}" var="row">
-							    	<div class="card projects col-md-12 filter ${row.tag_list}"> <!-- Figure out how to add all of the tags -->
+							    	<div class="card projects col-md-12 filter ${row.tag_list}"> 
 										<div class="card-body">
 											<h5 class="card-title">${row.workgroup_heading}</h5>
 											<div class="list-group">
@@ -401,7 +408,6 @@ input[type="radio"][disabled] {
 					}else{
 						offset = 30;
 					};
-	// 				var offset = -0.625 + (0.625 * 2 * i);
 					return offset + "px";}
 			}).add({
 				targets : '.ml5 .letters-left',
@@ -433,7 +439,6 @@ input[type="radio"][disabled] {
 				targets : '.ml5 .letters-two',
 				opacity : [ 0, 1 ],
 				easing : "easeInOutQuad",
-				translateX : [ "-77px", "-77px" ],
 				duration : 600,
 				offset : '-=600',
 			}).add({
@@ -446,7 +451,6 @@ input[type="radio"][disabled] {
 				targets : '.ml5 .letters-three',
 				opacity : [ 0, 1 ],
 				easing : "easeInOutQuad",
-				translateX : [ "-138px", "-138px" ],
 				duration : 600,
 				offset : '-=600'
 			}).add({
