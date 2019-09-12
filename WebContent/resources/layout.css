@@ -394,6 +394,10 @@ table a {
 	padding: 1.1rem .8rem;
 }
 
+.accent_card .list-group-item p{
+	padding: 0 23px 10px 0;
+}
+
 .accent_card .external{
 	background-image: url('../images/tile_background_external.png');
 	background-repeat: no-repeat;
