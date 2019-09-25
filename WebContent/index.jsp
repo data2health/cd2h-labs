@@ -169,12 +169,11 @@ input[type="radio"][disabled] {
 						<div class="card-body parent">
 							<div class="row">
 								<sql:query var="headings" dataSource="jdbc/cd2h_tools" >
-	        						select distinct(workgroup_heading), string_agg(distinct(tag), ' ') as tag_list, core_order
+	        						select distinct(workgroup_heading), string_agg(distinct(tag), ' ') as tag_list, max(core_order) as core_order
 									from cd2h_tools.tools 
 									join cd2h_tools.tool_tags on cd2h_tools.tools.tool_id = cd2h_tools.tool_tags.tool_id 
 									join cd2h_tools.tags on cd2h_tools.tags.tag_id = cd2h_tools.tool_tags.tag_id
-									where core_order is not null
-									group by 1,core_order
+									group by 1
 									order by core_order;
 	    						</sql:query>
 							    <c:forEach items="${headings.rows}" var="row">
