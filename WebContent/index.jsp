@@ -182,13 +182,14 @@ input[type="radio"][disabled] {
 											<h5 class="card-title">${row.workgroup_heading}</h5>
 											<div class="list-group">
 												<sql:query var="tools" dataSource="jdbc/cd2h_tools" >
-													select cd2h_tools.tools.name, short_desc, inst_short_name, external, tool_link, copyright, string_agg(tag, ' ') as tag_list
+													select cd2h_tools.tools.name, short_desc, inst_short_name, external, tool_link, copyright, string_agg(tag, ' ') as tag_list, max(tile_order) as tile_order
 													from cd2h_tools.tools 
 													join cd2h_tools.tool_tags on cd2h_tools.tools.tool_id = cd2h_tools.tool_tags.tool_id 
 													join cd2h_tools.tags on cd2h_tools.tags.tag_id = cd2h_tools.tool_tags.tag_id
 													where cd2h_tools.tools.workgroup_heading = '${row.workgroup_heading}'
 													and cd2h_tools.tools.show = TRUE
-													Group by cd2h_tools.tools.name, short_desc, inst_short_name, external, tool_link, copyright;
+													Group by cd2h_tools.tools.name, short_desc, inst_short_name, external, tool_link, copyright
+													Order by tile_order;
 	    										</sql:query>
 	    										<c:forEach items="${tools.rows}" var="trow">
 	    											<c:set var="meta" value="${trow.copyright}"/>
