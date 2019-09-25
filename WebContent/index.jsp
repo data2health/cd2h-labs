@@ -92,6 +92,21 @@ input[type="radio"][disabled] {
 	margin-top: 5%;
 	}
 }
+
+
+.row > .toolscloud, .row > .bestpract{
+	max-width: 40%;
+	min-width:300px;
+}
+
+.row > .cd2hproject, .row > .nextgen{
+	max-width:60%;
+	min-width:300px;
+}
+
+.card-title{
+	text-align: center;
+}
 </style>
 <script src="resources/anime.min.js"></script>
 
@@ -167,7 +182,7 @@ input[type="radio"][disabled] {
 							</div>
 						</div>
 						<div class="card-body parent">
-							<div class="row">
+							<div class="row justify-content-center">
 								<sql:query var="headings" dataSource="jdbc/cd2h_tools" >
 	        						select distinct(workgroup_heading), string_agg(distinct(tag), ' ') as tag_list, max(core_order) as core_order
 									from cd2h_tools.tools 
