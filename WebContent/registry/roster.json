@@ -1,0 +1,68 @@
+{
+    "headers": [
+        {
+            "label" : "Category",
+            "field" : "category"
+         },
+        {
+            "label" : "Name",
+            "field" : "name"
+         },
+        {
+            "label" : "Description",
+            "field" : "description"
+         },
+        {
+            "label" : "Location",
+            "field" : "location"
+         },
+        {
+            "label" : "License",
+            "field" : "license"
+         },
+        {
+            "label" : "Format",
+            "field" : "format"
+         },
+        {
+            "label" : "Tool Status",
+            "field" : "status"
+         },
+        {
+            "label" : "Contact",
+            "field" : "contact"
+         }
+    ],
+    "data": [
+        {
+            "category" : "Data Collection",
+            "name" : "CTSAsearch",
+            "description" : "CTSAsearch is a ...",
+            "location" : "https://labs.cd2h.org/search",
+            "license" : "GPL",
+            "format" : "Web application",
+            "status" : "online in CD2H labs",
+            "contact" : "Dave Eichmann"
+        },
+        {
+            "category" : "Proposal Submission",
+            "name" : "Competitions",
+            "description" : "Institutional tool for CTSA; community peer review. Platform to run NIH-style competitions including pilot projects and research awards",
+            "location" : "CTSA cloud",
+            "license" : "Apache",
+            "format" : "SAAS",
+            "status" : "",
+            "contact" : "Tools and Cloud Core"
+        },
+        {
+            "category" : "Survey",
+            "name" : "Awareness Management Platform (AMP)",
+            "description" : "",
+            "location" : "https://labs.cd2h.org/amp",
+            "license" : "",
+            "format" : "Web application",
+            "status" : "online in CD2H labs",
+            "contact" : "Dave Eichmann"
+        }
+    ]
+}

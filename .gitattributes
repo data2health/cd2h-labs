@@ -44,6 +44,8 @@ WebContent/images/working.png -text
 WebContent/index.jsp -text
 WebContent/index2.jsp -text
 WebContent/local_nav.jsp -text
+WebContent/registry/roster.json -text
+WebContent/registry/roster.jsp -text
 WebContent/resources/anime.min.js -text
 WebContent/resources/cd2h -text
 WebContent/resources/css -text
