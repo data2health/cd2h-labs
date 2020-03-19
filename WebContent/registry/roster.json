@@ -25,7 +25,7 @@
             "field" : "format"
          },
         {
-            "label" : "Tool Status",
+            "label" : "Tool Status/Maturity",
             "field" : "status"
          },
         {
