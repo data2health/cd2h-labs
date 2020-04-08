@@ -137,6 +137,7 @@ input[type="radio"][disabled] {
 					development. Our purpose is to provide the community with early
 					access so everyone can experiment with our tools and contribute
 					valuable insights about their design. </p>
+					<p><b>CD2H resources and activities relating to COVID-19 can be found at <a href="https://covid.cd2h.org">covid.cd2h.org</a>.</b></p>
 			</div>
 			
 			<div id="accordion" class="accent_card">
